@@ -1,0 +1,831 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: auto;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: rgb(73, 73, 73);
+  overflow: hidden;
+}
+
+
+/*##############LANDING SECTION#################*/
+
+#nav-sandwich {
+  margin-left: auto;
+}
+
+.nav-link.text-uppercase.nav-links {
+  color: #dedcdc !important;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.nav-item.nav-items {
+  font-weight: bold;
+  margin: 0px 15px;
+}
+
+.navbar-brand {
+  background-image: url("../../assets/img/LOGO 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 50px;
+  margin: 18px 12px;
+}
+
+#landingPageButton {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 229, 0);
+  width: 225px;
+  height: 65px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+#landing {
+  background-color: #ffffff;
+  background-size: cover;
+  max-width: 100%;
+
+}
+
+#landing button,
+#landing p,
+#landing li {
+  animation: fromRight;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-30px);
+
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*###################END OF LANDING SECTION##################*/
+
+/*#################SECTION WHAT WE DO#############*/
+
+.nav-link,
+.nav-link.nav-links {
+  transition: all 1s ease-in-out;
+
+}
+
+.tab-pane.fade p {
+  animation: fromLeft;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.tab-pane.fade li {
+  animation: fromRight;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(30px);
+
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#whatWeDoPara {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+#whatWeDoButton {
+  color: #ffffff;
+  background-color: rgb(226, 203, 0);
+  width: 330px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  margin: 0px 0px 50px 0px;
+}
+
+#whatWeDo {
+  max-width: 100%;
+
+}
+
+#landing {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/img/TOP_IMAGE.png");
+  font-family: Montserrat, sans-serif;
+}
+
+.nav.navbar-nav.ml-auto {
+  letter-spacing: 2px;
+  word-wrap: normal;
+}
+
+.navbar-brand {
+  min-width: 200px;
+  min-height: 50px;
+}
+
+.navbar.navbar-light.navbar-expand-lg {
+  margin-bottom: 115px;
+}
+
+.btn.btn-primary.btn-lg {
+  border-radius: 50px;
+  text-align: center;
+  border: 0px;
+  font-weight: bolder;
+}
+
+#whatWeDo {
+  background-image: url("../../assets/img/Layer 18.png");
+  width: 100%;
+}
+
+ul li {
+  margin: 0 auto;
+}
+
+.whatWeDo-tabinfo ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+}
+
+#whatWeDoRow,
+#whatWeDoRow2 {
+  margin: 0px auto;
+}
+
+#whatWeDo {
+  height: 113vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tab-pane li,
+p {
+  padding: 3px 0px;
+  letter-spacing: 0px;
+  color: #c7c7c7;
+  margin: 0px auto;
+  font-weight: 400;
+}
+
+#pills-tab .active {
+  background-color: rgba(136, 135, 135, 0.11);
+  border-bottom: 2px solid black;
+}
+
+/*#################END OF SECTION WHAT WE DO#############*/
+
+/*###################SECTION WHO WE ARE##############*/
+
+.btn.btn-primary.btn-lg.mx-auto {
+  border: 0px;
+}
+
+#whoWeAreRow {
+  margin: auto;
+  max-width: 900px;
+}
+
+#whoWeAre {
+  background-color: #ffffff;
+}
+
+#whoWeAre p {
+  color: black;
+}
+
+.image-screens {
+  position: relative;
+  top: -80px;
+
+}
+
+
+
+/*###################END OF SECTION WHO WE ARE##############*/
+
+/*####################CLIENTS SECTION######################*/
+
+#clients {
+  max-width: 100%;
+
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.59);
+  background-image: url("../../assets/img/Layer 39.png");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*####################END OF CLIENTS SECTION######################*/
+
+/*###############CONTACT US SECTION #########################*/
+
+.googleMaps a {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(255, 215, 0) !important;
+  text-decoration: underline;
+  padding-bottom: 25px;
+}
+
+.contact-us-p {
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+.contactUsSect {
+  background-color: #262626;
+  max-width: 100%;
+
+}
+
+#subForm input,
+#subForm button {
+  font-size: 0.6em;
+}
+
+#iconFacebook,
+#iconLinkedIn,
+#iconTwitter {
+  border: 1px solid gold;
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  border-radius: 50%;
+  display: flex;
+  color: rgb(43, 43, 43);
+}
+
+#iconLinkedIn {
+  margin: 0px 35px;
+
+}
+
+#contactUsCol {
+  max-width: 900px;
+}
+
+#contactUsForm .form-control {
+  background-color: rgba(43, 43, 43, 0.9);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 0px;
+}
+
+.form-control::placeholder {
+  color: rgba(156, 155, 155, 0.66);
+  padding-left: 25px;
+  letter-spacing: 2px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#formTextArea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+}
+
+#subscribeInput::placeholder {
+  color: black;
+  letter-spacing: 0px;
+  text-transform: none;
+  padding-left: 10px;
+  border-radius: -5px;
+}
+
+hr {
+  border-top: 2px solid rgba(61, 61, 61, 0.31);
+}
+
+#back-to-top {
+  border: 1px solid gold;
+  width: 50px;
+  height: 50px;
+  background-color: gold;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+
+  text-decoration: none;
+}
+
+/*###############END OF CONTACT US SECTION #########################*/
+
+@media (min-width: 300px) {
+  #subForm {
+    font-size: 1em;
+  }
+  contactUsSubForm {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  #contactUsPara {
+    font-size: 0.7em;
+    font-weight: 600;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  #contactUsSubscribeImg {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 50%;
+    height: 100%;
+  }
+  #formButton {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 229, 0);
+    width: 155px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  #contactUsSecondHeading {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 25px;
+  }
+  #contactUsHeading {
+    color: rgb(136, 136, 136);
+    font-size: 0.8em;
+    font-weight: 600;
+    margin: 0px auto;
+    padding: 30px 0px;
+    letter-spacing: 2px;
+    line-height: 16px;
+  }
+  #contactUs {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: #000000;
+  }
+  #awardsImageCol {
+    width: 100%;
+    padding: 10px;
+  }
+  .awards-second-paragraphs {
+    font-size: 0.6em;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  .awards-heading {
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+  }
+  #awardsHeading {
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    padding: 30px 0px;
+    letter-spacing: 2px;
+  }
+  #awards {
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.59);
+    background-image: url("../../assets/img/Layer 18 copy.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #clientsParagraph,
+  #clientsSecondParagraph {
+    font-size: 0.7em;
+    margin-top: 25px;
+  }
+  #clientsSecondHeading {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  #clientsHeading {
+    color: rgb(173, 173, 173);
+    font-size: 0.8em;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 30px 0;
+  }
+  #whoWeAreButton {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 229, 0);
+    width: 120px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 35px;
+    align-self: center;
+  }
+  #whoWeAreSecondRow img {
+    position: relative;
+    right: 50px;
+  }
+
+  #whoWeAre p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0px auto;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    padding: 10px;
+  }
+  #whoWeAreSecondRow {
+    margin: auto;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 245, 0.99);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #whoWeAreP p {
+    padding-bottom: 1em;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: black;
+  }
+  #whoWeAreSecondHeading {
+    padding: 0px 0px 40px 0px;
+    font-weight: 700;
+    font-size: 1.8em;
+  }
+  #whoWeAreHeading {
+    color: rgb(142, 142, 142);
+    font-size: 0.8em;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    padding: 50px 0px;
+    letter-spacing: 2px;
+    background-color: #ffffff;
+  }
+  .whatWeDo-tabinfo .tab-content li {
+    text-align: left;
+    list-style-position: inside;
+    font-size: 0.7em;
+    width: 100%;
+  }
+  .whatWeDo-tabinfo .tab-content p {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 0.7em;
+    width: 100%;
+  }
+  #landing h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(255, 229, 0);
+  }
+  #landing p {
+    font-size: 0.75em;
+    color: rgb(228, 228, 228);
+  }
+  #landingPageButton {
+    font-size: 0.6em;
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+  }
+  .image-screens {
+    width: 280px;
+    height: 280px;
+    top: -10px;
+
+  }
+  .whatWeDo-tabinfo {
+    width: 100%;
+    max-height: 600px;
+    letter-spacing: 2px;
+    color: rgb(130, 130, 130);
+    font-weight: 600;
+    margin: auto;
+  }
+  #eDesignImage {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 10px;
+  }
+  #whatWeDoPara {
+    font-size: 0.8em;
+    padding: 0px 15px;
+  }
+  #whatWeDoHeading {
+    color: rgb(76, 76, 77);
+    font-size: 0.6em;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    padding: 25px 0px;
+    letter-spacing: 2px;
+  }
+  .awards-paragraph {
+    font-weight: 600;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+  }
+  #whatWeDo .nav-link {
+    font-size: 0.5em;
+  }
+  .clients-serve-lists {
+    font-weight: 600;
+    font-size: 0.6em;
+  }
+  .tab-content p {
+    font-size: 0.55em;
+  }
+}
+
+@media (min-width: 370px) {
+  .whatWeDo-tabinfo .tab-content li {
+    font-size: 0.8em;
+  }
+  .whatWeDo-tabinfo .tab-content p {
+    font-size: 0.75em;
+  }
+  #whatWeDoPara {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 426px) {
+  .whatWeDo-info li {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 576px) {
+  #landing h1 {
+    font-size: 3em;
+  }
+  #landing p {
+    font-size: 1em;
+  }
+  #landingPageButton {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 229, 0);
+    width: 185px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 0.7em;
+    margin-top: 50px;
+  }
+  .image-screens {
+    width: 380px;
+    height: 380px;
+    top: -60px;
+
+  }
+  #clientsParagraph,
+  #clientsSecondParagraph {
+    font-size: 0.8em;
+    margin-top: 25px;
+  }
+  .awards-heading {
+    font-weight: 700;
+    font-size: 3em;
+  }
+  .awards-paragraph {
+    font-weight: 600;
+    font-size: 1em;
+  }
+  #eDesignImage {
+    width: 65%;
+    height: 100%;
+  }
+  .awards-second-paragraphs {
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 15px 0px;
+  }
+  #whatWeDoPara {
+    font-size: 1.2em;
+    padding: 0px 150px;
+  }
+  #whatWeDo .nav-link {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 768px) {
+  #landing h1 {
+    font-size: 4em;
+  }
+  #landing p {
+    padding: 6px 50px;
+  }
+  #whatWeDo li {
+    font-size: 0.85em;
+  }
+  #landingPageButton {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 229, 0);
+    width: 225px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+  }
+  #awardsImageCol {
+    width: 100%;
+    padding: 15px;
+  }
+  .nav-pills,
+  tab-pane {
+    margin: 50px;
+  }
+  .image-screens {
+    width: 550px;
+    height: 550px;
+    top: -60px;
+
+  }
+  #clientsSecondHeading {
+    font-size: 2em;
+  }
+  .clients-serve-lists.second {
+    margin-left: -75px;
+  }
+  .whatWeDo-tabinfo .tab-content p {
+    text-align: left;
+    font-size: 0.8em;
+  }
+  .whatWeDo-tabinfo .tab-content li {
+    text-align: left;
+    font-size: 0.85em;
+    width: 300px;
+  }
+  #whoWeAreSecondParagraphs p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+  }
+  .clients-serve-lists.first {
+    margin-left: 25px;
+  }
+  #whoWeAre p {
+    padding: 0px 50px;
+    font-size: 1em;
+  }
+  #clients p,
+  #clients li {
+    padding: 0px 50px;
+    list-style-position: inside;
+  }
+}
+
+@media (min-width: 992px) {
+  .image-screens {
+    width: 750px;
+    height: 750px;
+    top: -150px;
+  }
+  #clientsParagraph {
+    font-size: 0.8em;
+    margin: 50px;
+  }
+  .clients-serve-lists {
+    font-size: 0.7em;
+    width: 475px;
+  }
+  .whatWeDo-tabinfo {
+    width: 1100px;
+  }
+  .align-self-center.awards-heading {
+    margin-left: auto;
+  }
+  #eDesignImage {
+    width: 100%;
+    height: 25%;
+  }
+  .align-self-center.awards-paragraph {
+    margin-right: auto;
+  }
+  .text-center.awards-second-paragraphs {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  #landing h1 {
+    font-size: 4.7em;
+  }
+  #landing p {
+    font-size: 1.2em;
+  }
+  #whatWeDoPara {
+    font-size: 2em;
+    padding: 0px 300px;
+  }
+  .tab-pane {
+    padding: 50px;
+  }
+  .tab-pane li {
+    padding-left: 100px;
+  }
+  #whatWeDo li {
+    font-size: 1em;
+  }
+  .image-screens {
+    width: 100%;
+    height: 100%;
+    top: -120px;
+  }
+  #eDesignImage {
+    width: 250px;
+    height: 50px;
+  }
+  #clients p {
+    font-size: 1.1em;
+  }
+  #whoWeAreSecondParagraphs p {
+    text-align: left;
+    color: black;
+  }
+  #clientsSecondHeading {
+    font-size: 3em;
+  }
+  .clients-serve-lists {
+    margin: 50px 0px;
+    font-size: 0.8em;
+    width: 100%;
+  }
+  #whoWeAre p {
+    text-align: left;
+  }
+  .whatWeDo-tabinfo .tab-content p {
+    font-size: 1em;
+    width: 100%;
+  }
+  .whatWeDo-tabinfo .tab-content li {
+    font-size: 1em;
+    width: 100%;
+  }
+  #whatWeDoHeading,
+  #clientsHeading,
+  #awardsHeading,
+  #contactUsHeading,
+  #whoWeAreHeading {
+    font-size: 1em;
+    padding: 50px 0px;
+    letter-spacing: 2px;
+  }
+  .tab-pane p {
+    font-size: 3em;
+  }
+}
